@@ -1,10 +1,6 @@
-var numero = prompt("Inserisci un numero a 4 cifre");
-console.log(numero);
-
 var somma = 0;
-var sommare = 0;
-for (var i = 0; i < numero.length; i++) {
-  sommare = parseInt(numero[i]);
-  somma = somma + sommare;
+for (var i = 0; i < 10; i++) {
+  somma += i+1;
 }
-console.log(somma);
+var media = somma / i;
+console.log(somma, media);
